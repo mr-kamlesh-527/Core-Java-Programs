@@ -3,7 +3,7 @@ import java.util.Scanner;
 //create ATMExample class to implement the ATM functionality  
 public class ATMExample  
 {  
-    //main method starts   
+    
     public static void main(String args[] )  
     {  
         //declare and initialize balance, withdraw, and deposit  
@@ -40,7 +40,7 @@ public class ATMExample
         }  
         else  
         {  
-            //show custom error message   
+           
             System.out.println("Insufficient Balance");  
         }  
         System.out.println("");  
