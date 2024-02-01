@@ -6,6 +6,7 @@ public class Fibonacii {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter a Number : ");
 		term = sc.nextInt();
+		System.out.print("The Fibonacii Series of given Term is = ");
 		for(int i=1; i<=term; i++) {
 			System.out.print(a+" ");
 			c=a+b;
